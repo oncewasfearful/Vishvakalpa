@@ -260,6 +260,7 @@ body {
 .about-content {
   max-width: 800px;
   margin: 0 auto;
+  
 }
 
 .about-text {
@@ -313,7 +314,7 @@ body {
 
 .events-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
   gap: 32px;
   margin-top: 64px;
 }
